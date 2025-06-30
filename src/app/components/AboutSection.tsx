@@ -43,8 +43,8 @@ export default function AboutSection() {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.jpg"
-                      alt="About us"
+                      src="/About/circleicon-2.png"
+                      alt="Guaranteed Protection"
                       width={20}
                       height={20}
                       className="img-fluid me-2"
@@ -61,7 +61,7 @@ export default function AboutSection() {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-2.png"
                       alt="About us"
                       width={20}
                       height={20}
@@ -79,7 +79,7 @@ export default function AboutSection() {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-3.png"
                       alt="About us"
                       width={20}
                       height={20}
@@ -94,7 +94,7 @@ export default function AboutSection() {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-4.png"
                       alt="About us"
                       width={20}
                       height={20}

@@ -43,7 +43,7 @@ export default function AboutSection() {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/CheckmarkIcon.jpg"
                       alt="About us"
                       width={20}
                       height={20}

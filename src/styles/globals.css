@@ -69,3 +69,100 @@ html, body {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+.bg-app {
+  background-color: #6b46c1;
+  position: relative;
+  overflow: hidden;
+}
+
+.slideshow-wrapper {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.slideshow-track {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 36s linear infinite;
+}
+
+.slide {
+  width: 240px;
+  height: 500px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide-img {
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  object-fit: contain;
+}
+
+.center-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 500px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.frame-img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slideshow {
+  0% { transform: translate(-50%, -50%) translateX(0); }
+  8% { transform: translate(-50%, -50%) translateX(0); }
+
+  9% { transform: translate(-50%, -50%) translateX(-240px); }
+  17% { transform: translate(-50%, -50%) translateX(-240px); }
+
+  18% { transform: translate(-50%, -50%) translateX(-480px); }
+  26% { transform: translate(-50%, -50%) translateX(-480px); }
+
+  27% { transform: translate(-50%, -50%) translateX(-720px); }
+  35% { transform: translate(-50%, -50%) translateX(-720px); }
+
+  36% { transform: translate(-50%, -50%) translateX(-960px); }
+  44% { transform: translate(-50%, -50%) translateX(-960px); }
+
+  45% { transform: translate(-50%, -50%) translateX(-1200px); }
+  53% { transform: translate(-50%, -50%) translateX(-1200px); }
+
+  54% { transform: translate(-50%, -50%) translateX(-1440px); }
+  62% { transform: translate(-50%, -50%) translateX(-1440px); }
+
+  63% { transform: translate(-50%, -50%) translateX(-1680px); }
+  71% { transform: translate(-50%, -50%) translateX(-1680px); }
+
+  72% { transform: translate(-50%, -50%) translateX(-1920px); }
+  80% { transform: translate(-50%, -50%) translateX(-1920px); }
+
+  81% { transform: translate(-50%, -50%) translateX(-2160px); }
+  89% { transform: translate(-50%, -50%) translateX(-2160px); }
+
+  90% { transform: translate(-50%, -50%) translateX(-2400px); }
+  100% { transform: translate(-50%, -50%) translateX(-2400px); }
+}

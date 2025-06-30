@@ -34,10 +34,10 @@ const HeroSection: React.FC = () => {
         </div>
 
         {/* ✅ Text Column (Show Second on Mobile/MD, First on LG) */}
-        <div className="col-12 col-md-6 col-lg-6 text-start px-lg-5 mt-4 order-2 order-lg-1">
+        <div className="col-12 col-md-6 col-lg-6 text-start px-lg-5 order-2 order-lg-1">
           <div className="mb-3">
             <span className="bg-Pur text-secondary px-2 p-1 rounded-5 d-inline-block bg-Text mb-1">
-              <span className="bg-white text-black p-1 py1- me-1 rounded-pill fw-bold d-inline-block small">
+              <span className="bg-white text-black p-1 me-1 rounded-pill fw-bold d-inline-block small">
                 BC APPA
               </span>
               <span className="small bg-Text">Connect & Save 🔥</span>

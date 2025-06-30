@@ -5,7 +5,9 @@ import Image from "next/image";
 
 const OurBlog: React.FC = () => {
   return (
-    <section className="container py-5">
+    <div id="ourblog" className="ourblog">
+          <section 
+    className="container py-5">
       {/* Top Heading */}
       <div className="text-center mb-5">
         <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
@@ -164,6 +166,7 @@ const OurBlog: React.FC = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

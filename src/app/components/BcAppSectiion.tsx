@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const BcAppSection = () => {
   return (
+    
     <div
       className="container-fluid py-5 text-center"
       style={{

@@ -4,7 +4,8 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-5">
+      <div id="about" className="about">
+            <section  className="py-5">
       <div className="container">
         <div className="row align-items-center">
           {/* Image Column */}
@@ -112,5 +113,7 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
+      </div>
+
   );
 }

@@ -1,10 +1,12 @@
-"use client"; // Add this if you are using App Router
+"use client"; 
 
 import React from "react";
 
+
 const FaqSection = () => {
   return (
-    <div className="container my-5 py-5">
+    <div id="faqs" className="faqs">
+          <div className="container my-5 py-5">
       <div className="row justify-content-center text-center">
         <div className="col-12 mb-4">
           <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
@@ -131,6 +133,8 @@ const FaqSection = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 

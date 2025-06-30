@@ -1,0 +1,71 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0 ;
+}
+.bg-gradient-custom {
+  background: linear-gradient(to right, transparent 70%, #dddde8, #515655);
+}
+
+
+/* Or for gradient from left */
+.bg-gradient-custom {
+  background: linear-gradient(to left, transparent 70%, #dddde8, #badad3);
+}
+
+.btn-join-now {
+  background: linear-gradient(to right, #a144ec, #8670E5);
+  color: #fff !important;
+}
+.heading-top {
+  padding-top: 6rem !important;
+}
+.heading-bottom {
+  padding-bottom: 7rem !important;
+}
+
+
+.btn-purple {
+  background-color: #8670E5;
+  color: white;
+  border: none;
+}
+.btn-purple:hover {
+  background-color: #8f6eff;
+} 
+
+
+.fade-slide-up {
+  animation: fadeSlideUp 1s ease-out forwards;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.fade-slide-up {
+  animation: fadeSlideUp 1s ease-in-out forwards;
+}
+
+
+.rotate-spin {
+  animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

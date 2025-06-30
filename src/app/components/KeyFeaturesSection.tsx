@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const KeyFeaturesSection: React.FC = () => {
   return (
@@ -68,11 +69,12 @@ const KeyFeaturesSection: React.FC = () => {
                 {/* Right Column */}
                 <div className="col-lg-3 py-5">
                   <div className="d-flex align-items-center gap-3 mb-4">
-                    <img
-                      src="/KeyFeatures/Icon3.png"
-                      alt="Insurance Icon"
-                      width="40"
-                    />
+                   <Image
+  src="/KeyFeatures/Icon.png"
+  alt="Insurance Icon"
+  width={40}
+  height={40}
+/>
                     <div className="text-start">
                       <h6 className="fw-semibold mb-1">
                         Insurance-Backed Security

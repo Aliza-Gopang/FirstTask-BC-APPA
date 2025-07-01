@@ -166,3 +166,151 @@ html, body {
   90% { transform: translate(-50%, -50%) translateX(-2400px); }
   100% { transform: translate(-50%, -50%) translateX(-2400px); }
 }
+
+.join-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-animate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Hero SEction Mob image */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-image {
+  animation: float 3s ease-in-out infinite;
+}
+
+
+
+
+
+
+.orbitWrapper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.centerImage {
+  z-index: 10;
+}
+
+.orbit {
+  width: 100%;
+  height: 100%;
+  animation: spin 20s linear infinite;
+}
+
+.orbitItem {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Mission Vission */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* wavy*/
+@keyframes waveFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.wave-animate {
+  animation: waveFloat 6s ease-in-out infinite;
+}
+/* icons */
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 1.2s ease-in-out infinite;
+}
+/*center Mob*/
+@keyframes scaleInFade {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scaleFade {
+  animation: scaleInFade 1s ease-out both;
+}
+/* button */
+.btn-animate {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-animate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(134, 112, 229, 0.4); 
+}
+
+
+
+/* BC APPA */
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float-image {
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+

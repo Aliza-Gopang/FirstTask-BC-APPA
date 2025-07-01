@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 
-
 const OurApp: React.FC = () => {
   return (
     <section id="ourapp" className="ourapp">

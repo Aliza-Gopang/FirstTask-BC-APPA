@@ -3,14 +3,15 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="testimonials">
-      <div
-        className="container-fluid my-5 py-5"
-        style={{
-          background:
-            "linear-gradient(to right, rgb(237, 244, 250), #ffffff, rgb(244, 238, 248))",
-        }}
-      >
+    <section
+      id="testimonials"
+      className="testimonials"
+      style={{
+        background:
+          "linear-gradient(to right, rgb(237, 244, 250), #ffffff, rgb(244, 238, 248))",
+      }}
+    >
+      <div className="container my-5 py-5">
         <div className="row justify-content-center align-items-center text-center">
           <div className="col-12 mb-4">
             <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
@@ -145,8 +146,8 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="col-12 text-center mt-5">
-            <button className="btn btn-purple rounded-pill px-4 py-2">
-               Join a Secure BC Now!
+            <button className="btn btn-purple rounded-pill px-4 py-2 btn-animate">
+              Join a Secure BC Now!
             </button>
           </div>
         </div>

@@ -6,8 +6,8 @@ const KeyFeaturesSection: React.FC = () => {
     <>
       <section id="features" className="features">
         {/* Section 1 - Key Features */}
-        <div className="container mt-5">
-          <div className="py-5 text-center">
+        <div className="container mt-3">
+          <div className="text-center">
             <div className="row">
               <div className="col-12">
                 <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
@@ -42,6 +42,7 @@ const KeyFeaturesSection: React.FC = () => {
                         alt="Sharia Icon"
                         width={40}
                         height={40}
+                        className="animate-wiggle"
                       />
                       <div className="text-start">
                         <h6 className="fw-semibold mb-1">
@@ -63,9 +64,9 @@ const KeyFeaturesSection: React.FC = () => {
                       <Image
                         src="/KeyFeatures/Graphite.png"
                         alt="Verified"
-                        className="mb-3 img-fluid"
+                        className="mb-3 img-fluid animate-scaleFade"
                         width={300}
-                        height={300} // or set to whatever height matches your design
+                        height={300}
                       />
                     </div>
                   </div>
@@ -77,6 +78,7 @@ const KeyFeaturesSection: React.FC = () => {
                         alt="Insurance Icon"
                         width={40}
                         height={40}
+                        className="animate-wiggle"
                       />
                       <div className="text-start">
                         <h6 className="fw-semibold mb-1">
@@ -146,11 +148,11 @@ const KeyFeaturesSection: React.FC = () => {
           <h2 className="mb-4">What Makes BC Appa Different?</h2>
 
           <div className="row justify-content-center">
-            <div className="col-md-4 p-lg-2 border border-secondary rounded p-3 me-lg-4 mb-3">
+            <div className="col-md-4 p-lg-2 border border-secondary rounded py-3 me-lg-4 mb-3">
               <img
                 src="/KeyFeatures/Icon6.png"
                 alt="Shield Icon"
-                className="mb-3"
+                className="mb-3 animate-wiggle "
               />
               <h4>BC Appa</h4>
               <p>
@@ -162,7 +164,7 @@ const KeyFeaturesSection: React.FC = () => {
               <img
                 src="/KeyFeatures/Icon7.png"
                 alt="Phone Icon"
-                className="mb-3"
+                className="mb-3 animate-wiggle "
               />
               <h4>No More Cash Hassles</h4>
               <p>Everything is managed online, ensuring complete security.</p>

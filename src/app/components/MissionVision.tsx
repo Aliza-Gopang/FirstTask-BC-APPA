@@ -19,16 +19,16 @@ export default function MissionVision() {
   return (
     <>
       {/* Top Section */}
-      <div className="container bg-light text-dark py-5 rounded-5">
+      <div className="container-fluid bg-light text-dark py-5 rounded-5">
         <div className="row align-items-center justify-content-center text-start">
           {/* ✅ Image First on Mobile/MD, Right on LG */}
-          <div className="col-12 col-lg-6 d-flex justify-content-center order-1 order-lg-2 mb-4 mb-lg-0">
+          <div className="col-12 col-lg-6  d-flex justify-content-center order-1 order-lg-2 mb-4 mb-lg-0">
             <Image
               src="/MissionVision/arrow.png"
               alt="Arrow Illustration"
               width={260}
               height={300}
-              className="img-fluid rounded-3"
+              className="img-fluid rounded-3 animate-float"
             />
           </div>
 
@@ -55,7 +55,7 @@ export default function MissionVision() {
 
       {/* Bottom Section with Background Image & Animated CountUp */}
       <div
-        className="container my-5"
+        className="container-fluid my-5"
         style={{
           backgroundImage: 'url("/MissionVision/bg-blue.png")',
           backgroundSize: "cover",

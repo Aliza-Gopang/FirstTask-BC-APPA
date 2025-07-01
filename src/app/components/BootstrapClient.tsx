@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 export default function BootstrapClient() {
   useEffect(() => {
-    import('bootstrap').then((bootstrap) => {
+    import("bootstrap").then((bootstrap) => {
       (window as any).bootstrap = bootstrap;
     });
   }, []);

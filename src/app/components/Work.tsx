@@ -22,6 +22,7 @@ const Work: React.FC = () => {
               width={1500}
               height={400}
               style={{ width: "100%", height: "auto" }}
+              className="wave-animate"
             />
           </div>
           <div className="container d-none d-lg-block">
@@ -127,6 +128,7 @@ const Work: React.FC = () => {
                     alt="wave"
                     width={50}
                     height={50}
+                    className="animate-wiggle"
                   />
                 </div>
                 <h5>No More Risk of Default</h5>
@@ -144,6 +146,7 @@ const Work: React.FC = () => {
                     alt="wave"
                     width={50}
                     height={50}
+                    className="animate-wiggle"
                   />
                 </div>
                 <h5>No More Cash Hassles</h5>
@@ -158,6 +161,7 @@ const Work: React.FC = () => {
                     alt="wave"
                     width={50}
                     height={50}
+                    className="animate-wiggle"
                   />
                 </div>
                 <h5>No More Fraud</h5>

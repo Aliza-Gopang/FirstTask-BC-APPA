@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const BcAppSection = () => {
   return (
-    
     <div
       className="container-fluid py-5 text-center"
       style={{
@@ -49,11 +48,11 @@ const BcAppSection = () => {
         </div>
         <div className="col-lg-6 mb-4 ">
           <Image
-            src="/BcApp/Mob.png" // Replace with your phone image path
+            src="/BcApp/Mob.png"
             alt="Mobile Apps"
             width={400}
             height={200}
-            className="img-fluid"
+            className="img-fluid float-image"
           />
         </div>
       </div>

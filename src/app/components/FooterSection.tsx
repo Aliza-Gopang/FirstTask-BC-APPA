@@ -25,7 +25,7 @@ const FooterSection: React.FC = () => {
                 alt="App Store"
                 width={120}
                 height={40}
-                className="img-fluid"
+                className="img-fluid "
               />
             </a>
             <a href="#" className="btn">

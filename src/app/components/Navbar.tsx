@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
     if (isCollapsed) {
       setTimeout(() => {
         window.scrollBy({
-          top: 300, // adjust if needed
+          top: 300, // Adjust based on your section heights
           behavior: "smooth",
         });
       }, 200);
@@ -32,43 +32,40 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <>
-      <nav
-        className={`navbar navbar-expand-lg fixed-top ${
-          isScrolled ? "bg-white shadow-sm" : "bg-transparent"
-        }`}
-      >
-        <div className="container-fluid py-1 px-lg-2">
-          <Link
-            className="navbar-brand  d-flex align-items-center p-3"
-            href="/"
-          >
-            <Image
-              src="/HeroSection/logo.png"
-              alt="Logo"
-              width={150}
-              height={200}
-              className="img-fluid"
-            />
-          </Link>
+    <nav
+      className={`navbar navbar-expand-lg fixed-top ${
+        isScrolled ? "bg-white shadow-sm" : "bg-transparent"
+      }`}
+    >
+      <div className="container-fluid py-1 px-lg-2 px-lg-5">
+        <Link className="navbar-brand d-flex align-items-center p-3" href="/">
+          <Image
+            src="/HeroSection/logo.png"
+            alt="Logo"
+            width={150}
+            height={200}
+            className="img-fluid"
+          />
+        </Link>
 
-          {/* Toggle Button */}
-          <button
-            className={`navbar-toggler ${!isCollapsed ? "bg-white" : ""}`}
-            type="button"
-            onClick={toggleNavbar}
-            aria-controls="navbarNav"
-            aria-expanded={!isCollapsed}
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon" />
-          </button>
+        {/* Toggle Button */}
+        <button
+          className={`navbar-toggler ${!isCollapsed ? "bg-white" : ""}`}
+          type="button"
+          onClick={toggleNavbar}
+          aria-controls="navbarNav"
+          aria-expanded={!isCollapsed}
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon" />
+        </button>
 
-          <div
-            className={`collapse navbar-collapse ${!isCollapsed ? "show" : ""}`}
-            id="navbarNav"
-          >
-            <ul className="navbar-nav mx-auto justify-content-center gap-lg-1">
+        <div
+          className={`collapse navbar-collapse ${!isCollapsed ? "show" : ""}`}
+          id="navbarNav"
+        >
+          <div className="d-flex align-items-center w-100">
+            <ul className="navbar-nav mx-auto d-flex justify-content-center align-items-center gap-1">
               <li className="nav-item">
                 <Link className="nav-link text-dark" href="#HeroSection">
                   Home
@@ -81,7 +78,7 @@ const Navbar: React.FC = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-dark" href="/#how-it-works">
-                  How it works
+                  Works
                 </Link>
               </li>
               <li className="nav-item">
@@ -91,7 +88,7 @@ const Navbar: React.FC = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link text-dark" href="/#ourapp">
-                  Our App
+                  App
                 </Link>
               </li>
               <li className="nav-item">
@@ -111,13 +108,13 @@ const Navbar: React.FC = () => {
               </li>
             </ul>
 
-            <div className="d-none d-lg-flex align-items-center ms-auto">
+            <div className="d-none d-lg-flex align-items-center">
               <JoinButton />
             </div>
           </div>
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
 };
 

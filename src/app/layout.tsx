@@ -5,6 +5,8 @@ import "../styles/globals.css";
 import "../styles/utility.css";
 import { Urbanist } from "next/font/google";
 import Navbar from "./components/Navbar";
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 import BootstrapClient from "./components/BootstrapClient"; // ✅ Import
 
 const urbanist = Urbanist({

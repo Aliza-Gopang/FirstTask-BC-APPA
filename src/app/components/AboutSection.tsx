@@ -165,7 +165,7 @@ const CircularProfiles = () => {
           {/* Right: Content Section */}
           <div className="col-lg-6">
             <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
-              Features 🔥
+              About Our App 🔥
             </span>
             <h1 className="mt-2 mb-lg-3 fw-bold">
               🔒 Revolutionizing Savings Circles with 100% Financial Security

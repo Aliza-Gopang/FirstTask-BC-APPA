@@ -65,7 +65,7 @@ const Navbar: React.FC = () => {
           id="navbarNav"
         >
           <div className="d-flex align-items-center w-100">
-            <ul className="navbar-nav mx-auto d-flex justify-content-center align-items-center gap-1">
+            <ul className="navbar-nav mx-auto d-flex justify-content-center align-items-center gap-1 fw-bold">
               <li className="nav-item">
                 <Link className="nav-link text-dark" href="#HeroSection">
                   Home

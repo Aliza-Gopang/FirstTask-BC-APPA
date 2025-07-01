@@ -40,7 +40,8 @@ const KeyFeaturesSection: React.FC = () => {
                       <Image
                         src="/KeyFeatures/Icon2.png"
                         alt="Sharia Icon"
-                        width="40"
+                        width={40}
+                        height={40}
                       />
                       <div className="text-start">
                         <h6 className="fw-semibold mb-1">
@@ -59,11 +60,12 @@ const KeyFeaturesSection: React.FC = () => {
                   {/* Center Image */}
                   <div className="col-lg-4 d-flex align-items-center justify-content-center mt-4">
                     <div>
-                      <img
+                      <Image
                         src="/KeyFeatures/Graphite.png"
                         alt="Verified"
                         className="mb-3 img-fluid"
-                        width="300"
+                        width={300}
+                        height={300} // or set to whatever height matches your design
                       />
                     </div>
                   </div>

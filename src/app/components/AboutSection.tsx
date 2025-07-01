@@ -13,8 +13,7 @@ const Overlay = ({ text }: { text: string }) => (
 const AboutSection = () => {
   return (
     <div className="text-center">
-      <Overlay text="About Our App 🔥" />
-      <h2 className="fw-bold">Welcome to the App</h2>
+     
     </div>
   );
 };
@@ -180,7 +179,7 @@ const CircularProfiles = () => {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-1.png"
                       alt="About us"
                       width={20}
                       height={20}
@@ -198,7 +197,7 @@ const CircularProfiles = () => {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-2.png"
                       alt="About us"
                       width={20}
                       height={20}
@@ -216,7 +215,7 @@ const CircularProfiles = () => {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-3.png"
                       alt="About us"
                       width={20}
                       height={20}
@@ -231,7 +230,7 @@ const CircularProfiles = () => {
                 <p>
                   <strong>
                     <Image
-                      src="/About/CheckmarkIcon.png"
+                      src="/About/circleicon-4.png"
                       alt="About us"
                       width={20}
                       height={20}

@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
     >
       <div className="container-fluid">
         {/* ✅ Dark-star Image Below Navbar */}
-        <div className="text-start">
+        <div className="text-start ms-3">
           <Image
             src="/HeroSection/Dark-star.png"
             alt="Dark Star"

@@ -37,7 +37,7 @@ const KeyFeaturesSection: React.FC = () => {
                       </div>
                     </div>
                     <div className="d-flex align-items-center gap-3">
-                      <img
+                      <Image
                         src="/KeyFeatures/Icon2.png"
                         alt="Sharia Icon"
                         width="40"

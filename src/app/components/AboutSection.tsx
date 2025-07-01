@@ -10,6 +10,15 @@ const Overlay = ({ text }: { text: string }) => (
   </span>
 );
 
+const AboutSection = () => {
+  return (
+    <div className="text-center">
+      <Overlay text="About Our App 🔥" />
+      <h2 className="fw-bold">Welcome to the App</h2>
+    </div>
+  );
+};
+
 const CircularProfiles = () => {
   const orbitRef = useRef<HTMLDivElement>(null);
 
@@ -55,26 +64,9 @@ const CircularProfiles = () => {
     if (outerCircle?.length || innerCircle?.length) rotate();
   }, []);
 
-  const checklists = [
-    {
-      head: "Guaranteed Protection",
-      body: "- If a member defaults, your payout is covered by insurance.",
-    },
-    {
-      head: "100% Verified Users",
-      body: "- Every participant is authenticated, reducing fraud risk.",
-    },
-    {
-      head: "Secure Digital Transactions",
-      body: "- No cash exchanges, no hidden risks.",
-    },
-    {
-      head: "Full Transparency",
-      body: "- All records are digital and trackable in real-time.",
-    },
-  ];
-
   return (
+    <>
+    <AboutSection />
     <section data-aos="zoom-in-up" className="py-5">
       <div className="container-fluid">
         <div className="row align-items-center">
@@ -257,6 +249,7 @@ const CircularProfiles = () => {
         </div>
       </div>
     </section>
+  </>
   );
 };
 

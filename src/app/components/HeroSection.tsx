@@ -1,6 +1,6 @@
 import Image from "next/image";
 import JoinButton from "./JoinButton";
-import { motion } from "framer-motion";
+
 
 const HeroSection: React.FC = () => {
   return (

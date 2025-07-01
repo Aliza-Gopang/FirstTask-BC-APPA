@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="testimonials">
+    <section id="testimonials" className="testimonials">
       <div
         className="container-fluid my-5 py-5"
         style={{
@@ -151,7 +151,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

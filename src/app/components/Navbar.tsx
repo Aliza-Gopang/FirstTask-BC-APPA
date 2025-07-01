@@ -70,44 +70,44 @@ const Navbar: React.FC = () => {
           >
             <ul className="navbar-nav mx-auto justify-content-center gap-lg-1">
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="#HeroSection">
+                <a className="nav-link text-dark" href="#HeroSection">
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#about">
+                <a className="nav-link text-dark" href="/#about">
                   About
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#how-it-works">
+                <a className="nav-link text-dark" href="/#how-it-works">
                   How it works
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#features">
+                <a className="nav-link text-dark" href="/#features">
                   Features
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#ourapp">
+                <a className="nav-link text-dark" href="/#ourapp">
                   Our App
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#ourblog">
+                <a className="nav-link text-dark" href="/#ourblog">
                   Blog
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#testimonials">
+                <a className="nav-link text-dark" href="/#testimonials">
                   Testimonials
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/#faqs">
+                <a className="nav-link text-dark" href="/#faqs">
                   FAQ’s
-                </Link>
+                </a>
               </li>
             </ul>
 

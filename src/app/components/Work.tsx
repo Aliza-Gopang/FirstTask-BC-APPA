@@ -4,7 +4,7 @@ import Image from "next/image";
 const Work: React.FC = () => {
   return (
     <>
-      <div id="how-it-works" className="how-it-works">
+      <section id="how-it-works" className="how-it-works">
         <div className="row">
           <div className="col-12 text-center p-3">
             <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mt-5 mb-2">
@@ -111,7 +111,7 @@ const Work: React.FC = () => {
             </div>
           </div>
         </div>
-        <section className="container py-5 mt-2 text-center">
+        <div className="container py-5 mt-2 text-center">
           <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mt-5 mb-2">
             Peace of Mind 🔥
           </span>
@@ -171,8 +171,8 @@ const Work: React.FC = () => {
           <p className="mt-3 fw-bold">
             ✨ Save with Confidence – Your money is always protected!
           </p>
-        </section>
-      </div>
+        </div>
+      </section>
     </>
   );
 };

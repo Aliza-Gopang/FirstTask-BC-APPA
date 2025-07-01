@@ -4,9 +4,9 @@ import Image from "next/image";
 const KeyFeaturesSection: React.FC = () => {
   return (
     <>
-      <div id="features" className="features">
+      <section id="features" className="features">
         {/* Section 1 - Key Features */}
-        <section className="container mt-5">
+        <div className="container mt-5">
           <div className="py-5 text-center">
             <div className="row">
               <div className="col-12">
@@ -135,7 +135,7 @@ const KeyFeaturesSection: React.FC = () => {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         {/* Section 2 - What Makes BC Appa Different */}
         <section className="container text-center py-5">
           <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-2">
@@ -169,7 +169,7 @@ const KeyFeaturesSection: React.FC = () => {
 
           <p className="mt-4 fw-bold">📢 Your Savings Are Safe - Always!</p>
         </section>
-      </div>
+      </section>
     </>
   );
 };

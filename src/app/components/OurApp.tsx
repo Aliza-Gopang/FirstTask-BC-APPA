@@ -6,8 +6,8 @@ import { section } from "framer-motion/client";
 
 const OurApp: React.FC = () => {
   return (
-    <div id="ourapp" className="ourapp">
-      <section className="container-fluid bg-app text-center py-5 position-relative overflow-hidden">
+    <section id="ourapp" className="ourapp">
+      <div className="container-fluid bg-app text-center py-5 position-relative overflow-hidden">
         <span className="bg-Pur text-secondary px-3 py-2 rounded-5 d-inline-block bg-Text mb-1">
           Our Blog 🔥
         </span>
@@ -56,8 +56,8 @@ const OurApp: React.FC = () => {
             />
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

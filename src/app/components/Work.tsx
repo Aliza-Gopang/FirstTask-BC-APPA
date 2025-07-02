@@ -123,13 +123,7 @@ const Work: React.FC = () => {
             <div className="col-md-4 mb-3">
               <div className="card p-3">
                 <div className="text-primary mb-2">
-                  <Image
-                    src="/Work/icon1.png"
-                    alt="wave"
-                    width={50}
-                    height={50}
-                    className="animate-wiggle"
-                  />
+                 <Image src="/Work/icon1.png" width={50} height={50} alt="icon" />
                 </div>
                 <h5>No More Risk of Default</h5>
                 <p>
@@ -141,13 +135,7 @@ const Work: React.FC = () => {
             <div className="col-md-4 mb-3">
               <div className="card p-3">
                 <div className="text-primary mb-2">
-                  <Image
-                    src="/Work/icon2.png"
-                    alt="wave"
-                    width={50}
-                    height={50}
-                    className="animate-wiggle"
-                  />
+                 <Image src="/Work/icon2.png" width={50} height={50} alt="icon" />
                 </div>
                 <h5>No More Cash Hassles</h5>
                 <p>Everything is managed online, ensuring complete security.</p>
@@ -156,13 +144,8 @@ const Work: React.FC = () => {
             <div className="col-md-4 mb-3">
               <div className="card p-3">
                 <div className="text-primary mb-2">
-                  <Image
-                    src="/Work/icon3.png"
-                    alt="wave"
-                    width={50}
-                    height={50}
-                    className="animate-wiggle"
-                  />
+                  <Image src="/Work/icon3.png" width={50} height={50} alt="icon" />
+
                 </div>
                 <h5>No More Fraud</h5>
                 <p>

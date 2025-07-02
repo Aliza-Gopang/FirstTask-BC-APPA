@@ -4,12 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 
-const Overlay = ({ text }: { text: string }) => (
-  <span className="bg-secondary text-white px-2 py-1 rounded-pill d-inline-block mb-3 fw-semibold">
-    {text}
-  </span>
-);
-
 
 const CircularProfiles = () => {
   const orbitRef = useRef<HTMLDivElement>(null);

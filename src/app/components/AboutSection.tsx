@@ -10,13 +10,6 @@ const Overlay = ({ text }: { text: string }) => (
   </span>
 );
 
-const AboutSection = () => {
-  return (
-    <div className="text-center">
-     
-    </div>
-  );
-};
 
 const CircularProfiles = () => {
   const orbitRef = useRef<HTMLDivElement>(null);
@@ -65,7 +58,7 @@ const CircularProfiles = () => {
 
   return (
     <>
-    <AboutSection />
+  
     <section data-aos="zoom-in-up" className="py-5">
       <div className="container-fluid">
         <div className="row align-items-center">
